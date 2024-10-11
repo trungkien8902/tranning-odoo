@@ -24,7 +24,6 @@
                         <field name="employee_ids" context="{'default_employee_ids': active_id}" invisible="1"/>
                     </group>
                 </sheet>
-
             </form>
         </field>
     </record>

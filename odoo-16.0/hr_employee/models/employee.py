@@ -246,7 +246,7 @@ class Employee(models.Model):
         return super(Employee, self).create(vals)
 
     def _check_skills_limits(self, certification_ids):
-        max_skills = 10
+        max_skills = 5
 
         for employee in self:
             new_certifications = self.env['employee.certification'].browse(certification_ids[0][2])
